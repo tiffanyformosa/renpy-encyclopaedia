@@ -16,10 +16,10 @@ class AchievementEncEntry(EncEntry):
     Args:
         achievement: The name of the achievement
         parent: The parent container for the EncEntry.
-        number: The entry's number.
-            If this is not set then it will be given a number automatically.
         name: Title, normally used for buttons and headings.
         text: The text to be displayed when the entry is viewed.
+        number: The entry's number.
+            If this is not set then it will be given a number automatically.
         subject: The subject to associate the entry with.
             Used for sorting and filtering.
         viewed: Set the viewed status of the EncEntry. Default is False.
@@ -37,9 +37,10 @@ class AchievementEncEntry(EncEntry):
         self,
         achievement: str,
         parent: Optional[Union['Encyclopaedia', 'EncEntry']] = None,
-        number: Optional[int] = None,
         name: str = "",
         text: Union[str, list[str]] = "",
+        *,
+        number: Optional[int] = None,
         subject: str = "",
         viewed: bool = False,
         viewed_persistent: Optional[bool] = False,

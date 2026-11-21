@@ -38,6 +38,7 @@ class Encyclopaedia(EventEmitter, store.object):
     """Container to manage the behaviour of a collection of EncEntry objects.
 
     Args:
+        name: A optional name for the Encyclopaedia.
         sorting_mode: How entries are sorted. Default is SortMode.NUMBER.
         show_locked_buttons: If True, locked entries show a
             placeholder label on the listing screen.
@@ -47,7 +48,6 @@ class Encyclopaedia(EventEmitter, store.object):
         entry_screen: The Ren'Py screen to display an open entry.
         hyperlink_screen: The Ren'Py screen to display an entry opened from a
             hyperlink.
-        name: A optional name for the Encyclopaedia.
 
     Attributes:
         all_entries: All entries, regardless of status.
@@ -67,13 +67,14 @@ class Encyclopaedia(EventEmitter, store.object):
     """
 
     def __init__(self,
+                 name: str = '',
+                 *,
                  sorting_mode: SortMode = SortMode.NUMBER,
                  show_locked_buttons: bool = False,
                  show_locked_entry: bool = False,
                  list_screen: str = 'encyclopaedia_list',
                  entry_screen: str = 'encyclopaedia_entry',
                  hyperlink_screen: str = 'encyclopaedia_list',
-                 name: str = '',
                  ) -> None:
         self._sorting_mode = sorting_mode
         self._reverse_sorting: bool = False
