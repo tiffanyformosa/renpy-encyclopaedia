@@ -1,14 +1,15 @@
 Encyclopaedia Framework for Ren'Py
 ==================================
 
-.. image:: https://github.com/jsfehler/renpy-encyclopaedia/workflows/CI/badge.svg
-    :target: https://github.com/jsfehler/renpy-encyclopaedia/actions/workflows/test.yml
-    :alt: Build status
+==================================
 
-.. image:: https://coveralls.io/repos/github/jsfehler/renpy-encyclopaedia/badge.svg?branch=master
-    :target: https://coveralls.io/github/jsfehler/renpy-encyclopaedia?branch=master
+.. image::https://github.com/tiffanyformosa/renpy-encyclopaedia/actions/workflows/test.yml/badge.svg
+    :target: https://github.com/tiffanyformosa/renpy-encyclopaedia/actions/workflows/test.yml
+    :alt: GitHub Actions CI Status
 
 A plugin for the `Ren'py Visual Novel engine <https://www.renpy.org/>`_
+
+Written by jsfehler, redistributed under the MIT License by tiffanyformosa
 
 Use it to create an encyclopaedia, bestiary, glossary, codex or similar system.
 
@@ -31,4 +32,4 @@ Documentation is available at https://renpy-encyclopaedia.readthedocs.io/
 Contributing
 ------------
 For filing bugs or feature requests, please use the
-`GitHub issue tracker <https://github.com/jsfehler/renpy-encyclopaedia/issues>`_
+`GitHub issue tracker <https://github.com/tiffanyformosa/renpy-encyclopaedia/issues>`_
