@@ -3,9 +3,11 @@ Encyclopaedia Framework for Ren'Py
 
 ==================================
 
-.. image::https://github.com/tiffanyformosa/renpy-encyclopaedia/actions/workflows/test.yml/badge.svg
-    :target: https://github.com/tiffanyformosa/renpy-encyclopaedia/actions/workflows/test.yml
-    :alt: GitHub Actions CI Status
+|image1|
+
+.. |image1| image:: https://github.com/tiffanyformosa/renpy-encyclopaedia/actions/workflows/test.yml/badge.svg
+   :alt: CI
+   :target: https://github.com/tiffanyformosa/renpy-encyclopaedia/actions/workflows/test.yml
 
 A plugin for the `Ren'py Visual Novel engine <https://www.renpy.org/>`_
 
